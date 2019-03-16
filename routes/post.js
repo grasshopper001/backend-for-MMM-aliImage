@@ -3,8 +3,8 @@ var router=express.Router();
 var multer=require("multer");
 var fs=require("fs");
 /* OSS info */
-var OSSak="LTAI3lEsjcnLflRn";
-var OSSakSecret="I1m9zaRbiftlt74fcU0Rk4u6PPGHBi";
+var OSSak="LTAIsW1WtRusvrtT";
+var OSSakSecret="AC8Jtwk8uWKhea0cvJT7sJbfm8Cfgi";
 var fileName=undefined;
 
 //OSS dependencies
@@ -16,7 +16,7 @@ var client=new OSS({
     accessKeySecret:OSSakSecret
 })
 var ali_oss={
-    bucket:"grasshopper002-schedule",
+    bucket:"schindlermm",
     endPoint:"oss-cn-shanghai.aliyuncs.com"
 }
 
